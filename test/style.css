@@ -1,0 +1,87 @@
+:root {
+  background: black;
+  color: green;
+  padding: 2rem;
+  text-align: center;
+}
+* {
+  font-family: Menlo, monospace;
+}
+h1 {
+  font-size: 3rem;
+}
+.display {
+  width: 30px;
+  height: auto;
+  padding: 2px;
+  background: black;
+}
+.display .segment {
+  display: none;
+}
+
+.display.a .segment.a,
+.display.b .segment.b,
+.display.c .segment.c,
+.display.d .segment.d,
+.display.e .segment.e,
+.display.f .segment.f,
+.display.g1 .segment.g1,
+.display.g2 .segment.g2,
+.display.h .segment.h,
+.display.i .segment.i,
+.display.j .segment.j,
+.display.k .segment.k,
+.display.l .segment.l,
+.display.m .segment.m {
+  display: block;
+  fill: green;
+}
+
+#segmentDescription .display {
+  width: 100px;
+}
+
+#oneLetterImage .display {
+  width: 50px;
+}
+
+input,
+button,
+label {
+  font-size: 1rem;
+  height: 2rem;
+  padding: 2px 8px;
+  margin: 4px;
+}
+
+input,
+button {
+  border: 1px solid green;
+  border-radius: 4px;
+  background-color: #111;
+}
+
+input:focus {
+  outline: none;
+}
+
+input {
+  color: rgb(208, 208, 208);
+}
+
+button {
+  cursor: pointer;
+  background-color: green;
+}
+
+label:hover {
+  cursor: pointer;
+}
+.fil0 {
+  fill: #111;
+}
+
+article {
+  margin-bottom: 3em;
+}
