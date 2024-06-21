@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "cd test; vite",
-    "compare": "prettier --write --ignore-path=.prettierignore raw; prettier --write --ignore-path=.prettierignore dist; node compare.js",
+    "start": "cd test && vite",
+    "compare": "prettier --write --ignore-path=.prettierignore raw && prettier --write --ignore-path=.prettierignore dist && node compare.js",
     "build": "tsc"
   },
   "author": "",
